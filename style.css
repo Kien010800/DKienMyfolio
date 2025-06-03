@@ -332,6 +332,37 @@ nav {
 }
 
 @media (min-width:140px) {
+   nav {
+    position: absolute;
+    padding: 2rem 1rem;
+    max-width: var(--max-width);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .nav__header {
+    flex: 1;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav__menu__btn {
+    display: none;
+  }
+
+  .nav__links {
+    position: static;
+    padding: 0;
+    width: fit-content;
+    flex-direction: row;
+    background-color: transparent;
+    transform: none !important;
+  }
   .header__content h1 {
     font-size: 2.5rem;
   }
