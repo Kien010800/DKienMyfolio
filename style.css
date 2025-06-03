@@ -372,8 +372,8 @@ nav {
 }
 
 .project-card img {
-  width: 800%;
-  height: 200px;
+  width: 600%;
+  height: 100px;
   object-fit:block;
 }
   .input__row {
