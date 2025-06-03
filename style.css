@@ -331,23 +331,25 @@ nav {
   text-align: center;
 }
 
-@media (width > 140px) {
+@media (min-width:140px) {
   .header__content h1 {
-    font-size: 4.75rem;
+    font-size: 2.5rem;
   }
 
 
   .input__row {
-    display: flex;
-    gap: 2rem;
+    display: block;
+    gap: 1rem;
   }
 
   .footer__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
-@media (width > 768px) {
+
+
+@media (min-width: 768px) {
   nav {
     position: absolute;
     padding: 2rem 1rem;
@@ -468,7 +470,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (width > 1024px) {
+@media (min-width: 1024px) {
   .header__content {
     padding-block: 15rem 12rem;
   }
